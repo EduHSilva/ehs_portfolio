@@ -1,16 +1,13 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import "./index.css";
-import {
-    useLocation,
-  } from "react-router-dom";
+import "./index.scss";
+import {useLocation} from "react-router-dom";
 
-  
+
 const Header = () => {
     let location = useLocation();
-    console.log(location.pathname)
-        return <>
+    return <>
         <Navbar sticky="top">
             <Container>
                 <Navbar.Brand href="/">
