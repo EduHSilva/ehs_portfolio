@@ -1,0 +1,60 @@
+.card {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 6px 50px rgba(0, 139, 185, 0.17);
+    border-radius: 50px !important;
+    padding: 50px 0px;
+    margin-top: 60px;
+    
+    .dot {
+        border-radius: 50%;
+        background: linear-gradient(180deg, #003377 -50%, #00FFFF 166.67%);
+        box-shadow: 0px 4px 4px rgba(153, 153, 153, 0.15);
+        width: 30px;
+        height: 30px;
+        margin: 20px;
+    }
+
+    .legend {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+
+        .dot {
+            width: 13px;
+            height: 13px;
+            margin: 0;
+            margin-right: 08px;
+        }
+    }
+
+    .card-title {
+        font-family: 'Nunito';
+        font-weight: 700 !important;
+        font-size: 34px !important;
+        line-height: 46px;
+        text-align: center;
+
+        background: linear-gradient(180deg, #003377 -28.26%, #00FFFF 139.13%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin-bottom: 20px;
+    }
+
+    .center {
+        display: flex;
+        align-items: center;
+
+
+        span {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 24px;
+            line-height: 33px;
+            color: #406B79;
+        }
+    }
+}
