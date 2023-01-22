@@ -1,3 +1,4 @@
+@import "../../base";
 .navbar {
     background: rgba(0, 76, 92, 0.1);
     border-bottom: 1px solid #FFFFFF;
@@ -21,6 +22,16 @@
     
     .active {
         border-bottom: 5px solid #fff!important;
+    }
+
+    @media (max-width: $width_mobile){
+        border-bottom: none;
+        
+        .nav {
+            background: linear-gradient(100deg, #003377 6.33%, rgba(0, 255, 255, 0.02) 191.52%);
+            z-index: 1;
+            width: 100%;
+        }
     }
 }
 

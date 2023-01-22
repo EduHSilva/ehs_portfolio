@@ -49,7 +49,6 @@ const Skills = () => {
           <ItemSkill num={3} desc={"Java"}/>
           <ItemSkill num={2} desc={"JavaScript"}/>
           <ItemSkill num={1} desc={"Banco de dados"}/>
-
         </Row>
       </Card.Body>
     </Card>

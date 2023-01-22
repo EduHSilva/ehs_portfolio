@@ -8,12 +8,12 @@ import {useLocation} from "react-router-dom";
 const Header = () => {
     let location = useLocation();
     return <>
-        <Navbar sticky="top">
+        <Navbar sticky="top" expand="lg" variant="dark">
             <Container>
                 <Navbar.Brand href="/">
                     <img src="/imgs/logo-branco.png" alt='Logo' />
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                     <Nav activeKey={location.pathname} className="nav">
                         <Nav.Link href="/sobre">Sobre</Nav.Link>
