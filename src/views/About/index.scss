@@ -11,7 +11,7 @@
             color: #fff;
         }
 
-        height: 80vh;
+        height: 100vh;
     }
 
 
@@ -23,15 +23,6 @@
         margin-bottom: 80px;
     }
 
-    h3 {
-        font-weight: 700;
-        font-size: 34px;
-        line-height: 46px;
-        background: linear-gradient(90deg, #003377 10.26%, #00FFFF 150.13%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-    }
 
     @media (max-width: $width_mobile){
         padding: 10px 25px;    

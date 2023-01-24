@@ -1,3 +1,4 @@
+@import "../../base";
 .card {
     box-sizing: border-box;
     display: flex;
@@ -6,6 +7,11 @@
     border-radius: 50px !important;
     padding: 50px 0px;
     margin-top: 60px;
+
+
+    @media (max-width: $width_mobile){ 
+        border-radius: 20px!important;
+    }
     
     .dot {
         border-radius: 50%;
@@ -14,18 +20,29 @@
         width: 30px;
         height: 30px;
         margin: 20px;
+
+        @media (max-width: $width_mobile){
+            margin: 15px;
+            width: 24px;
+            height: 24px;
+        }
     }
 
     .legend {
         display: flex;
         align-items: center;
         margin-left: 10px;
+        margin-bottom: 20px;
 
         .dot {
             width: 13px;
             height: 13px;
             margin: 0;
             margin-right: 08px;
+            @media (max-width: $width_mobile){ 
+                width: 8px;
+                height: 8px;
+            }
         }
     }
 
@@ -55,6 +72,10 @@
             font-size: 24px;
             line-height: 33px;
             color: #406B79;
+
+            @media (max-width: $width_mobile){ 
+                font-size: 18px;
+            }
         }
     }
 }

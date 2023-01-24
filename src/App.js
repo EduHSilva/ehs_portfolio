@@ -7,6 +7,7 @@ import {
 
 import { About, Projects } from "./views";
 import { Header } from "./components";
+import Foooter from "./components/Footer";
 
 
 const App = () => (
@@ -19,6 +20,7 @@ const App = () => (
           <Route path="/projetos" element={<Projects />}/>
         </Routes>
       </BrowserRouter>
+      <Foooter />
     </main>
 );
 

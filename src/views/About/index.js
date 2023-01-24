@@ -31,9 +31,6 @@ const About = () => {
                 </p>
                 <Skills />
             </section>
-            <section>
-                
-            </section>
         </div>
     </Container>
 }

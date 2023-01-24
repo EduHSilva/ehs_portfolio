@@ -8,7 +8,7 @@ const ItemSkill = props => {
         dots.push(<Dot />)
     }
     return <Row>
-        <Col className='center'>
+        <Col className='center' xs={4} >
             <span>
             {desc}
             </span>
