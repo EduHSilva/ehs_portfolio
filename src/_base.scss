@@ -4,6 +4,7 @@ body {
     font-family: 'Nunito', sans-serif;
     min-height: 100vh;
 
+    animation: fadein 2s ease-in-out;;
     @media (max-width: $width_mobile){
         .container {
             width: 100%!important;
@@ -13,13 +14,10 @@ body {
         }
     }
 
-    h3 {
-        font-weight: 700;
-        font-size: 34px;
-        line-height: 46px;
-        background: linear-gradient(90deg, #003377 10.26%, #00FFFF 150.13%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-    }
 }
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+  

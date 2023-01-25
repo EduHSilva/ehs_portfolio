@@ -12,7 +12,7 @@ const Skills = () => {
         </Card.Title>
         <Row>
           <Col>
-            <div className='legend'>
+            <div className='legend justify-content-center'>
               <div className='dot'>
                 &nbsp;
               </div>
@@ -20,7 +20,7 @@ const Skills = () => {
             </div>
           </Col>
           <Col>
-            <div className='legend'>
+            <div className='legend justify-content-center'>
               <div className='dot'>
                 &nbsp;
               </div>
@@ -31,7 +31,7 @@ const Skills = () => {
             </div>
           </Col>
           <Col>
-            <div className='legend'>
+            <div className='legend justify-content-center'>
               <div className='dot'>
                 &nbsp;
               </div>
@@ -47,8 +47,13 @@ const Skills = () => {
         </Row>
         <Row>
           <ItemSkill num={3} desc={"Java"}/>
-          <ItemSkill num={2} desc={"JavaScript"}/>
-          <ItemSkill num={1} desc={"Banco de dados"}/>
+          <ItemSkill num={3} desc={"SQL"}/>
+          <ItemSkill num={2} desc={"JavaScript"}/>\
+          <ItemSkill num={2} desc={"Python"}/>
+          <ItemSkill num={2} desc={"Inglês"}/>
+          <ItemSkill num={2} desc={"Selenium"}/>
+          <ItemSkill num={1} desc={"AWS"}/>
+          <ItemSkill num={1} desc={"Docker"}/>
         </Row>
       </Card.Body>
     </Card>

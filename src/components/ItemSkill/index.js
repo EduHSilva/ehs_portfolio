@@ -8,15 +8,14 @@ const ItemSkill = props => {
         dots.push(<Dot />)
     }
     return <Row>
-        <Col className='center' xs={4} >
+        <Col className='center justify-content-center' xs={4} >
             <span>
-            {desc}
+                {desc}
             </span>
-            
         </Col>
         <Col>
             <Row>
-            {dots}
+                {dots}
             </Row>
         </Col>
     </Row>
