@@ -36,6 +36,18 @@
         line-height: 46px;
     }
 
+    h4 {
+        background: linear-gradient(180deg, #003377 58.26%, #00FFFF 139.13%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 46px;
+    }
+
     @media (max-width: $width_mobile) {
         padding: 10px 25px;
 

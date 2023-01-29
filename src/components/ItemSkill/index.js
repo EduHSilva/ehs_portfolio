@@ -13,7 +13,7 @@ const ItemSkill = props => {
                 {desc}
             </span>
         </Col>
-        <Col>
+        <Col xs={8}>
             <Row>
                 {dots}
             </Row>

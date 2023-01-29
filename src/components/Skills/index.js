@@ -48,7 +48,7 @@ const Skills = () => {
         <Row>
           <ItemSkill num={3} desc={"Java"}/>
           <ItemSkill num={3} desc={"SQL"}/>
-          <ItemSkill num={2} desc={"JavaScript"}/>\
+          <ItemSkill num={2} desc={"JavaScript"}/>
           <ItemSkill num={2} desc={"Python"}/>
           <ItemSkill num={2} desc={"Inglês"}/>
           <ItemSkill num={2} desc={"Selenium"}/>

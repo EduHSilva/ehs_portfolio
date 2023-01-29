@@ -1,10 +1,11 @@
-import { Card, Col } from "react-bootstrap";
+import { Card, Col, Row } from "react-bootstrap";
 const Contact = () => {
     return <Card>
         <Card.Title>
             Contato
         </Card.Title>
         <Card.Body>
+            <Row>
             <Col>
                 <div className="footer-item">
                     <img src="/imgs/whats.png" alt="Whats" />
@@ -23,6 +24,7 @@ const Contact = () => {
                     <img src="/imgs/github.png" alt="Github" />@Eduardo681
                 </div>
             </Col>
+            </Row>
         </Card.Body>
     </Card>
 }

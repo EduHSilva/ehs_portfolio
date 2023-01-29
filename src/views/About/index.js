@@ -23,7 +23,7 @@ const About = () => {
                 </p>
             </section>
             <section>
-                <h3>Motivações e objetivos</h3>
+                <h4>Motivações e objetivos</h4>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed sem fermentum, aliquet neque sed, fringilla libero.
                     Nunc iaculis volutpat justo, eu egestas est blandit sit amet. Praesent posuere arcu ac felis iaculis, in consectetur justo dignissim.
