@@ -17,12 +17,12 @@ const Contact = () => {
                 </div>
             </Col>
             <Col>
-                <div className="footer-item"> 
+                <a className="footer-item" href="https://www.linkedin.com/in/edu-h/" target="_blank" rel="noreferrer"> 
                     <img src="/imgs/linkedin.png" alt="LinkedIN" />Eduardo Silva
-                </div>
-                <div className="footer-item">
+                </a>
+                <a className="footer-item" href="https://github.com/Eduardo681" target="_blank" rel="noreferrer"> 
                     <img src="/imgs/github.png" alt="Github" />@Eduardo681
-                </div>
+                </a>
             </Col>
             </Row>
         </Card.Body>

@@ -21,8 +21,16 @@ body {
         border: none;
         width: 150px;
         height: 40px;
+        
+        a {
+            color: #fff;
+        }
     }
 
+    a {
+        text-decoration: none;
+        color: #000;
+    }
 }
 
 @keyframes fadein {

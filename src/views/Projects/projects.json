@@ -3,13 +3,15 @@
         "title": "Uso da análise de dados em cenários empresariais: Incrementado à Estratégia de Marketing Digital",
         "imgs": ["https://user-images.githubusercontent.com/50171354/186998874-29031580-35f2-48ba-b817-af82e0116236.png", "https://user-images.githubusercontent.com/50171354/186999424-70943ac6-5264-44e3-a7da-6ec4588c852e.png"],
         "description": "Projeto de data mining e data science para buscar dados online e fornecer uma solução que permita à empresa uma estratégia de tomada de decisões baseada em dados. Dessa forma, executamos a mineração de dados na base do twitter e gerar um relatório que forneça dados para um profissional avaliar o posicionamento da marca e as avaliações de consumidores.",
-        "tags": ["Python","DataScience", "Machine Learning"]
+        "tags": ["Python","DataScience", "Machine Learning"],
+        "link": "https://github.com/Eduardo681/tcc"
     },
     {
         "title": "Near: As finanças ao seu alcance ",
         "imgs": ["https://camo.githubusercontent.com/5927c3c3bb5c311e849d5652c2a0e2a7c1dcef5f767dd34031ae448e2f540266/68747470733a2f2f692e696d6775722e636f6d2f6f68366e77736d2e706e67", 
         "https://camo.githubusercontent.com/f4de3a492946e04879e55cad9c7f166320f139c8af3fced2f7f95bd2c720ceb5/68747470733a2f2f692e696d6775722e636f6d2f5a6a384b6c6f7a2e706e67"],
         "description": "Projeto com o objetivo de utilizar do OpenBanking para unir dados financeiros em uma única plataforma, fornecendo uma visão unificada dos dados.",
-        "tags": ["React", "Mobile", "Web", "Hackton"]
+        "tags": ["React", "Mobile", "Web", "Hackton"],
+        "link": "https://github.com/Eduardo681/hackaton-near"
     }
 ]

@@ -33,7 +33,9 @@ const Projects = () => {
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer>
-                                <button>Acessar</button>
+                                <button>
+                                    <a rel="noreferrer" target="_blank" href={p.link}>Acessar</a>
+                                </button>
                             </Card.Footer>
                         </Card>
                     </Col>

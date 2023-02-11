@@ -1,37 +1,51 @@
 @import "../../base";
+
 .navbar {
     background: rgba(0, 76, 92, 0.1);
     border-bottom: 1px solid #FFFFFF;
     padding: 0;
     height: 65px;
-    
+
     .nav {
         width: 60%;
         justify-content: space-between;
     }
-    
+
     a {
-        color: #FFFFFF!important;
+        color: #FFFFFF !important;
         width: 100px;
         height: 65px;
-        display: flex!important;
+        display: flex !important;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
-    
+
     .active {
-        border-bottom: 5px solid #fff!important;
+        border-bottom: 5px solid #fff !important;
     }
 
-    @media (max-width: $width_mobile){
+    @media (max-width: $width_mobile) {
         border-bottom: none;
-        
+        background: #17447e !important;
+
         .nav {
-            background: linear-gradient(100deg, #003377 6.33%, rgba(0, 255, 255, 0.02) 191.52%);
+            background: #17447e;
             z-index: 1;
             width: 100%;
+            margin-top: -10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .navbar-toggler {
+        border: none;
+
+        &:focus {
+            border: none;
+            box-shadow: none;
         }
     }
 }
-
