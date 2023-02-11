@@ -5,7 +5,7 @@ import ItemSkill from '../ItemSkill';
 
 const Skills = () => {
   return (
-    <Card>
+    <Card className='skills'>
       <Card.Body>
         <Card.Title>
           Skills

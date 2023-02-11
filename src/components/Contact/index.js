@@ -1,6 +1,6 @@
 import { Card, Col, Row } from "react-bootstrap";
 const Contact = () => {
-    return <Card>
+    return <Card className="contact" id="contato">
         <Card.Title>
             Contato
         </Card.Title>
