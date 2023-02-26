@@ -11,6 +11,14 @@
 
     @media (max-width: $width_mobile){ 
         border-radius: 20px!important;
+
+        .card-body {
+            padding: 0;
+            
+            .card-dots {
+                flex-flow: nowrap
+            }
+        }
     }
     
     .dot {

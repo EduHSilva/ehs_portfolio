@@ -14,7 +14,7 @@ const ItemSkill = props => {
             </span>
         </Col>
         <Col xs={8}>
-            <Row>
+            <Row className='card-dots'>
                 {dots}
             </Row>
         </Col>
