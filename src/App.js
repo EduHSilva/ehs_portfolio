@@ -2,13 +2,12 @@ import React from "react";
 import {
   BrowserRouter,
   Routes,
-  Route
+  Route,
 } from "react-router-dom";
 
 import { About, Projects } from "./views";
 import { Header } from "./components";
 import Foooter from "./components/Footer";
-
 
 const App = () => (
     <main>
@@ -16,7 +15,6 @@ const App = () => (
         <Header />
         <Routes>
           <Route path="/" element={<About />}/>
-          <Route path="/sobre" element={<About />}/>
           <Route path="/projetos" element={<Projects />}/>
         </Routes>
       </BrowserRouter>

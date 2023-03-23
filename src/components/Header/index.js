@@ -15,7 +15,7 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                     <Nav activeKey={location.pathname} className="nav">
-                        <Nav.Link href="/sobre">Sobre</Nav.Link>
+                        <Nav.Link href="/">Sobre</Nav.Link>
                         <Nav.Link href="/projetos">Projetos</Nav.Link>
                         <Nav.Link href="#contato">Contato</Nav.Link>
                         <Nav.Link target="_blank" href="https://drive.google.com/file/d/1v_xmWppn_b82t_u5MTuRJGpYUJEBB3a-/view?usp=sharing">Currículo</Nav.Link>

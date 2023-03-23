@@ -21,21 +21,6 @@ const About = () => {
                     Atualmente, trabalho em uma Start-up que vem contribuindo para que eu seja um profissional ágil, com alta adaptabilidade e apto a trabalhar em equipe.
                     Além disso em trabalhos anteriores adquiri experiencia no desenvolvimento e manutenção de sistemas ERP e E-Commerce.
                 </p>
-            </section>
-            <section>
-                <h4>Motivações e objetivos</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed sem fermentum, aliquet neque sed, fringilla libero.
-                    Nunc iaculis volutpat justo, eu egestas est blandit sit amet. Praesent posuere arcu ac felis iaculis, in consectetur justo dignissim.
-                    Cras bibendum viverra lectus, at placerat orci porta quis. In hac habitasse platea dictumst. Suspendisse potenti.
-                    Praesent pellentesque ipsum lorem, et cursus ligula condimentum vitae.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed sem fermentum, aliquet neque sed, fringilla libero.
-                    Nunc iaculis volutpat justo, eu egestas est blandit sit amet. Praesent posuere arcu ac felis iaculis, in consectetur justo dignissim.
-                    Cras bibendum viverra lectus, at placerat orci porta quis. In hac habitasse platea dictumst. Suspendisse potenti.
-                    Praesent pellentesque ipsum lorem, et cursus ligula condimentum vitae.
-                </p>
                 <Skills />
             </section>
         </div>
