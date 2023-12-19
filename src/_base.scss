@@ -1,40 +1,44 @@
 $width_mobile: 1080px;
 body {
-    background: linear-gradient(180deg, #003377 -6.33%, rgba(0, 255, 255, 0.02) 91.52%);
-    font-family: 'Nunito', sans-serif;
-    min-height: 100vh;
+  background: linear-gradient(180deg, #003377 -6.33%, rgba(0, 255, 255, 0.02) 91.52%);
+  font-family: 'Nunito', sans-serif;
+  min-height: 100vh;
 
-    animation: fadein 2s ease-in-out;;
-    @media (max-width: $width_mobile){
-        .container {
-            width: 100%!important;
-            padding: 0px!important;
-            margin: 0px;
-            max-width: unset;
-        }
+  animation: fadein 2s ease-in-out;;
+  @media (max-width: $width_mobile) {
+    .container {
+      width: 100% !important;
+      padding: 0px !important;
+      margin: 0px;
+      max-width: unset;
     }
+  }
 
-    button {
-        background: #003377;
-        color: #fff;
-        border-radius: 8px;
-        border: none;
-        width: 150px;
-        height: 40px;
-        
-        a {
-            color: #fff;
-        }
-    }
+  button {
+    background: #003377;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    width: 150px;
+    height: 40px;
 
     a {
-        text-decoration: none;
-        color: #000;
+      color: #fff;
     }
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
 }
 
 @keyframes fadein {
-    from { opacity: 0; }
-    to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
   

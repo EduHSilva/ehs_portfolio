@@ -1,66 +1,66 @@
 @import "../../base";
 
 .introduction {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-    padding: 100px 250px;
+  padding: 100px 250px;
 
-    section {
-        &:first-child {
-            color: #fff;
-        }
-
-        min-height: 100vh;
+  section {
+    &:first-child {
+      color: #fff;
     }
+
+    min-height: 100vh;
+  }
+
+
+  h1 {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 109px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+  }
+
+  h3 {
+    background: linear-gradient(180deg, #003377 8.26%, #00FFFF 139.13%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+  }
+
+  h4 {
+    background: linear-gradient(180deg, #003377 58.26%, #00FFFF 139.13%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+  }
+
+  @media (max-width: $width_mobile) {
+    padding: 10px 25px;
 
 
     h1 {
-        font-weight: 700;
-        font-size: 80px;
-        line-height: 109px;
-        margin-top: 30px;
-        margin-bottom: 80px;
+      font-size: 32px;
+      line-height: unset;
     }
 
     h3 {
-        background: linear-gradient(180deg, #003377 8.26%, #00FFFF 139.13%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        font-family: 'Nunito';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 34px;
-        line-height: 46px;
+      font-size: 28px;
+      line-height: unset;
     }
-
-    h4 {
-        background: linear-gradient(180deg, #003377 58.26%, #00FFFF 139.13%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        font-family: 'Nunito';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 34px;
-        line-height: 46px;
-    }
-
-    @media (max-width: $width_mobile) {
-        padding: 10px 25px;
-
-
-        h1 {
-            font-size: 32px;
-            line-height: unset;
-        }
-
-        h3 {
-            font-size: 28px;
-            line-height: unset;
-        }
-    }
+  }
 
 }

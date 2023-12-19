@@ -2,55 +2,55 @@
 
 
 .container {
-    margin: 50px;
+  margin: 50px;
 }
 
 .project {
-    height: 650px !important;
+  height: 650px !important;
 
 
-    .container-img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+  .container-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-        height: 300px;
+    height: 300px;
 
-        img {
-            height: 300px;
-            width: auto;
-        }
+    img {
+      height: 300px;
+      width: auto;
     }
+  }
 
-    .card-footer {
-        display: flex;
-        align-items: flex-end;
-        justify-content: center;
+  .card-footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .badge {
+    margin-right: 5px;
+    margin-bottom: 10px;
+  }
+
+  .card-text {
+    text-align: justify;
+  }
+
+  @media (max-width: $width_mobile) {
+    height: unset !important;
+
+    img {
+      height: auto !important;
+      width: 300px !important;
     }
-
-    .badge {
-        margin-right: 5px;
-        margin-bottom: 10px;
-    }
-
-    .card-text {
-        text-align: justify;
-    }
-
-    @media (max-width: $width_mobile) {
-        height: unset !important;
-
-        img {
-            height: auto !important;
-            width: 300px !important;
-        }
-    }
+  }
 }
 
 
 @media (max-width: $width_mobile) {
-    .row {
-        margin: 1px !important;
-    }
+  .row {
+    margin: 1px !important;
+  }
 
 }

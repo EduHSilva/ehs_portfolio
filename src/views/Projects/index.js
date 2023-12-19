@@ -1,4 +1,4 @@
-import { Container, Row, Col, Badge, Carousel } from 'react-bootstrap';
+import {Container, Row, Col, Badge, Carousel} from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 import "./index.scss"
 
@@ -11,20 +11,20 @@ const Projects = () => {
                     <Col>
                         <Card className='project'>
                             <Carousel variant="dark">
-                            {
-                                p.imgs.map(img => 
-                                    <Carousel.Item>
-                                        <div className='container-img'>
-                                        <Card.Img variant="top" src={img} />
-                                        </div>
-                                    </Carousel.Item>
-                                )
-                            }
+                                {
+                                    p.imgs.map(img =>
+                                        <Carousel.Item>
+                                            <div className='container-img'>
+                                                <Card.Img variant="top" src={img}/>
+                                            </div>
+                                        </Carousel.Item>
+                                    )
+                                }
                             </Carousel>
                             <Card.Body>
                                 <Card.Title>{p.title}</Card.Title>
                                 {
-                                    p.tags.map(t => 
+                                    p.tags.map(t =>
                                         <Badge bg="secondary">{t}</Badge>
                                     )
                                 }
