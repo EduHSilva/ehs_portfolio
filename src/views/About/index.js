@@ -7,7 +7,8 @@ const About = () => {
     <Container fluid>
       <div className="introduction">
         <section>
-          <p>Oi, eu sou o Edu!</p>
+          <h5>Oi, eu sou o Edu!</h5>
+          <br />
           <p>
             Bem-vindo ao meu portfólio! Sou um profissional dedicado e
             apaixonado pela área de tecnologia, com uma sólida formação
