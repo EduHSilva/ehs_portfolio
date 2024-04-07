@@ -30,8 +30,8 @@
         margin: 20px;
 
         @media (max-width: $width_mobile){
-            margin: 15px;
-            width: 24px;
+            margin: 2px;
+            width: 10px;
             height: 24px;
         }
     }
@@ -41,6 +41,7 @@
         align-items: center;
         margin-left: 10px;
         margin-bottom: 20px;
+        color: #000;
 
         .dot {
             width: 13px;
@@ -85,5 +86,9 @@
                 font-size: 18px;
             }
         }
+    }
+
+    hr {
+        color: #ccc;
     }
 }

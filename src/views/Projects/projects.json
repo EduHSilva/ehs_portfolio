@@ -16,8 +16,8 @@
   {
     "title": "Near: As finanças ao seu alcance ",
     "imgs": [
-      "https://camo.githubusercontent.com/5927c3c3bb5c311e849d5652c2a0e2a7c1dcef5f767dd34031ae448e2f540266/68747470733a2f2f692e696d6775722e636f6d2f6f68366e77736d2e706e67",
-      "https://camo.githubusercontent.com/f4de3a492946e04879e55cad9c7f166320f139c8af3fced2f7f95bd2c720ceb5/68747470733a2f2f692e696d6775722e636f6d2f5a6a384b6c6f7a2e706e67"
+      "https://camo.githubusercontent.com/6236405be4ca4b5b22a360028337a52a1e9a85322619697c355cfd453d15bd2b/68747470733a2f2f692e696d6775722e636f6d2f6f68366e77736d2e706e67",
+      "https://camo.githubusercontent.com/c3d407b0e5b2412f045ffe7e722f41b881fa387d0ecb54b588e531c3ef4818a3/68747470733a2f2f692e696d6775722e636f6d2f5a6a384b6c6f7a2e706e67"
     ],
     "description": "Projeto com o objetivo de utilizar do OpenBanking para unir dados financeiros em uma única plataforma, fornecendo uma visão unificada dos dados.",
     "tags": [
@@ -27,5 +27,35 @@
       "Hackton"
     ],
     "link": "https://github.com/Eduardo681/hackaton-near"
+  },
+  {
+    "title": "Engenharia de dados: ETL em dados de DOTA2 ",
+    "imgs": [
+      "/imgs/dota2.png",
+      "/imgs/dota-logo.png"
+    ],
+    "description": "Projeto de engenharia de dados para a obtenção de dados brutos de partidas de Dota2, transformação e carga em um banco de dados orientado a documentos.",
+    "tags": [
+      "Python",
+      "DataScience",
+      "Engenharia de dados"
+    ],
+    "link": "https://github.com/Eduardo681/dotaProMatches"
+  },
+  {
+    "title": "Utilizando Análise de Dados para Auxiliar Investidores no Mercado Imobiliário",
+    "imgs": [
+      "/imgs/imobiliario.jpg"
+    ],
+    "description": "A solução proposta envolve a aplicação de modelos preditivos avançados, como regressão e análise de séries temporais, para prever o valor futuro de imóveis e estimar os potenciais retornos para os investidores. Essa abordagem fornece aos investidores uma visão abrangente do mercado imobiliário, permitindo que eles tomem decisões informadas e estratégicas em seus investimentos.",
+    "tags": [
+      "Python",
+      "DataScience",
+      "Machine Learning"
+    ],
+    "link": "https://github.com/Eduardo681/crispdm"
   }
+
+
+
 ]

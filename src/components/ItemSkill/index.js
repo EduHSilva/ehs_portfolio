@@ -1,30 +1,27 @@
-import { Row, Col } from 'react-bootstrap';
+import { Col, Row } from "react-bootstrap";
 
-const ItemSkill = props => {
-    let num = props.num;
-    let desc = props.desc;
-    const dots = []
-    for (let i = 0; i < num; i++) {
-        dots.push(<Dot />)
-    }
-    return <Row>
-        <Col className='center justify-content-center' xs={4} >
-            <span>
-                {desc}
-            </span>
-        </Col>
-        <Col xs={8}>
-            <Row className='card-dots'>
-                {dots}
-            </Row>
-        </Col>
+const ItemSkill = (props) => {
+  let num = props.num;
+  let desc = props.desc;
+  const dots = [];
+  for (let i = 0; i < num; i++) {
+    dots.push(<Dot />);
+  }
+  return (
+    <Row>
+      <hr />
+      <Col className="center" xs={5}>
+        <span>{desc}</span>
+      </Col>
+      <Col xs={6} className="align-content-center">
+        <Row className="card-dots">{dots}</Row>
+      </Col>
     </Row>
-}
+  );
+};
 
 const Dot = () => {
-    return <div className='dot'>
-        &nbsp;
-    </div>
-}
+  return <div className="dot">&nbsp;</div>;
+};
 
 export default ItemSkill;
