@@ -20,8 +20,8 @@ const Contact = () => {
                 <a className="footer-item" href="https://www.linkedin.com/in/edu-h/" target="_blank" rel="noreferrer"> 
                     <img src="/imgs/linkedin.png" alt="LinkedIN" />Eduardo Silva
                 </a>
-                <a className="footer-item" href="https://github.com/Eduardo681" target="_blank" rel="noreferrer"> 
-                    <img src="/imgs/github.png" alt="Github" />@Eduardo681
+                <a className="footer-item" href="https://github.com/EduHSilva" target="_blank" rel="noreferrer"> 
+                    <img src="/imgs/github.png" alt="Github" />@EduHSilva
                 </a>
             </Col>
             </Row>

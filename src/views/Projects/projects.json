@@ -11,22 +11,7 @@
       "DataScience",
       "Machine Learning"
     ],
-    "link": "https://github.com/Eduardo681/tcc"
-  },
-  {
-    "title": "Near: As finanças ao seu alcance ",
-    "imgs": [
-      "https://camo.githubusercontent.com/6236405be4ca4b5b22a360028337a52a1e9a85322619697c355cfd453d15bd2b/68747470733a2f2f692e696d6775722e636f6d2f6f68366e77736d2e706e67",
-      "https://camo.githubusercontent.com/c3d407b0e5b2412f045ffe7e722f41b881fa387d0ecb54b588e531c3ef4818a3/68747470733a2f2f692e696d6775722e636f6d2f5a6a384b6c6f7a2e706e67"
-    ],
-    "description": "Projeto com o objetivo de utilizar do OpenBanking para unir dados financeiros em uma única plataforma, fornecendo uma visão unificada dos dados.",
-    "tags": [
-      "React",
-      "Mobile",
-      "Web",
-      "Hackton"
-    ],
-    "link": "https://github.com/Eduardo681/hackaton-near"
+    "link": "https://github.com/EduHSilva/tcc"
   },
   {
     "title": "Engenharia de dados: ETL em dados de DOTA2 ",
@@ -40,7 +25,7 @@
       "DataScience",
       "Engenharia de dados"
     ],
-    "link": "https://github.com/Eduardo681/dotaProMatches"
+    "link": "https://github.com/EduHSilva/dotaProMatches"
   },
   {
     "title": "Utilizando Análise de Dados para Auxiliar Investidores no Mercado Imobiliário",
@@ -53,9 +38,6 @@
       "DataScience",
       "Machine Learning"
     ],
-    "link": "https://github.com/Eduardo681/crispdm"
+    "link": "https://github.com/EduHSilva/crispdm"
   }
-
-
-
 ]
