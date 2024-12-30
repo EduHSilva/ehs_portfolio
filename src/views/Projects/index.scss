@@ -1,31 +1,33 @@
 @import "../../base";
+@import "../About/index";
 
 
 .container {
-  margin: 50px;
+  padding: 100px 65px;
 }
 
 .project {
-  height: 650px !important;
-
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: $background-color!important;
 
   .container-img {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    height: 300px;
+    margin-bottom: 15px;
 
     img {
-      height: 300px;
-      width: auto;
+      max-height: 100%;
+      max-width: 100%;
+      object-fit: contain;
     }
   }
 
   .card-footer {
     display: flex;
-    align-items: flex-end;
     justify-content: center;
+    gap: 5px;
   }
 
   .badge {
@@ -35,22 +37,24 @@
 
   .card-text {
     text-align: justify;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
   }
 
   @media (max-width: $width_mobile) {
-    height: unset !important;
+    .container-img {
+      height: 150px;
+    }
 
-    img {
-      height: auto !important;
-      width: 300px !important;
+    .card-text {
+      font-size: 12px;
     }
   }
 }
 
-
 @media (max-width: $width_mobile) {
   .row {
-    margin: 1px !important;
+    margin: 5px 0;
   }
-
 }

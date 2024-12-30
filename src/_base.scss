@@ -1,29 +1,44 @@
 $width_mobile: 1080px;
+$background-color: #1A1A1A;
+$text-color: #D6D6D6;
+$button-color: #5E5E5E;
+$card-color:  #4A4A4A;
+
 body {
-  background: linear-gradient(180deg, #003377 -6.33%, rgba(0, 255, 255, 0.02) 91.52%);
+  background: linear-gradient(180deg, $background-color -6.33%, rgba(0, 255, 255, 0.02) 91.52%);
   font-family: 'Nunito', sans-serif;
   min-height: 100vh;
+  color: $text-color;
 
   animation: fadein 2s ease-in-out;;
   @media (max-width: $width_mobile) {
     .container {
       width: 100% !important;
-      padding: 0px !important;
-      margin: 0px;
+      padding: 0 !important;
+      margin: 0;
       max-width: unset;
     }
   }
 
   button {
-    background: #003377;
+    background: $button-color;
     color: #fff;
     border-radius: 8px;
     border: none;
     width: 150px;
     height: 40px;
 
+    :hover {
+      color: #FFFFFF!important;
+    }
+
     a {
       color: #fff;
+
+      :hover {
+        color: #FFFFFF!important;
+        text-decoration: none;
+      }
     }
   }
 

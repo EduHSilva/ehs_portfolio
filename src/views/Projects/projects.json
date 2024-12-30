@@ -16,8 +16,7 @@
   {
     "title": "Engenharia de dados: ETL em dados de DOTA2 ",
     "imgs": [
-      "/imgs/dota2.png",
-      "/imgs/dota-logo.png"
+      ""
     ],
     "description": "Projeto de engenharia de dados para a obtenção de dados brutos de partidas de Dota2, transformação e carga em um banco de dados orientado a documentos.",
     "tags": [
@@ -30,7 +29,6 @@
   {
     "title": "Utilizando Análise de Dados para Auxiliar Investidores no Mercado Imobiliário",
     "imgs": [
-      "/imgs/imobiliario.jpg"
     ],
     "description": "A solução proposta envolve a aplicação de modelos preditivos avançados, como regressão e análise de séries temporais, para prever o valor futuro de imóveis e estimar os potenciais retornos para os investidores. Essa abordagem fornece aos investidores uma visão abrangente do mercado imobiliário, permitindo que eles tomem decisões informadas e estratégicas em seus investimentos.",
     "tags": [

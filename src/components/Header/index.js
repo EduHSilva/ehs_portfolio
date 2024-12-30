@@ -21,7 +21,6 @@ const Header = () => {
             <Nav activeKey={location.pathname} className="nav">
               <Nav.Link href="/">Sobre</Nav.Link>
               <Nav.Link href="/projetos">Projetos</Nav.Link>
-              <Nav.Link href="#contato">Contato</Nav.Link>
               <Nav.Link
                 target="_blank"
                 href="https://drive.google.com/file/d/11NeXQnyhmspYE8H6Rk39Q7EqQXSbyibR/view?usp=sharing"

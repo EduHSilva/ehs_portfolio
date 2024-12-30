@@ -1,33 +1,36 @@
-import {Container, Row, Col, Badge, Carousel} from 'react-bootstrap';
+import { Row, Col, Badge, Carousel } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
-import "./index.scss"
+import "./index.scss";
 
 const projects = require('./projects.json');
+
 const Projects = () => {
     return (
-        <Container>
-            <Row xs={1} md={2} className="g-4">
-                {projects.map(p => (
-                    <Col>
+        <div className="container">
+            <Row xs={1} md={1} className="g-4">
+                {projects.map((p, index) => (
+                    <Col key={index}>
                         <Card className='project'>
-                            <Carousel variant="dark">
-                                {
-                                    p.imgs.map(img =>
-                                        <Carousel.Item>
+                            {p.imgs.length > 0 && (
+                                <Carousel
+                                    variant="dark"
+                                    indicators={p.imgs.length > 1}
+                                    controls={p.imgs.length > 1}
+                                >
+                                    {p.imgs.map((img, imgIndex) => (
+                                        <Carousel.Item key={imgIndex}>
                                             <div className='container-img'>
-                                                <Card.Img variant="top" src={img}/>
+                                                <Card.Img variant="top" src={img} />
                                             </div>
                                         </Carousel.Item>
-                                    )
-                                }
-                            </Carousel>
+                                    ))}
+                                </Carousel>
+                            )}
                             <Card.Body>
                                 <Card.Title>{p.title}</Card.Title>
-                                {
-                                    p.tags.map(t =>
-                                        <Badge bg="secondary">{t}</Badge>
-                                    )
-                                }
+                                {p.tags.map((t, tagIndex) => (
+                                    <Badge bg="secondary" key={tagIndex}>{t}</Badge>
+                                ))}
                                 <Card.Text>
                                     {p.description}
                                 </Card.Text>
@@ -41,7 +44,8 @@ const Projects = () => {
                     </Col>
                 ))}
             </Row>
-        </Container>
+        </div>
     );
 }
+
 export default Projects;

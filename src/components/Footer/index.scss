@@ -1,53 +1,48 @@
 @import "../../base";
+
 footer {
-    height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  margin-top: 100px;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+
+  .grey {
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-around; /* Distribui os grupos uniformemente */
     align-items: center;
+    height: 100%;
+    background: linear-gradient(180deg, $background-color -30.22%, $background-color 191.04%);
 
-    .blue {
-        height: 50vh;
-        width: 100%;
-        background: linear-gradient(180deg, #003377 -30.22%, #00FFFF 191.04%);
-    }
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
 
-    .card {
-        width: 50%;
-        margin-top: -30vh;
-        margin-left: 40vw;
+      .footer-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 16px;
+        color: $text-color;
+        text-decoration: none;
 
-        .card-body {
-            display: flex;
-            width: 100%;
-            justify-content: center;
-            align-items: center;        
-
-            img {
-                margin: 30px;
-            }
-
-            .footer-item {
-                display: flex;
-                align-items: center;
-            }
+        img {
+          width: 20px;
+          height: 20px;
+          filter: invert(1);
         }
-    }
 
-    @media (max-width: $width_mobile) {
-        .card {
-            width: 90%;
-            margin-left: 0;
-
-            .col {
-                width: 100%!important;
-            }
-
-            .card-body {
-                img {
-                    margin: 10px;
-                }
-            }
+        &:hover {
+          color: lighten($text-color, 10%);
         }
+      }
     }
+  }
 }

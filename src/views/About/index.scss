@@ -1,20 +1,73 @@
 @import "../../base";
 
+.content-container {
+  height: 80vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
 .introduction {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  padding: 100px 65px;
+  width: 97vw;
+  background-color: $background-color;
+  margin: 1vw  2vw;
 
-  padding: 100px 250px;
+  .subtitle {
+    width: 30vw;
+  }
+
+
+
+  .badge {
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    font-size: 0.9em;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .badge.advanced {
+    background-color: #28a745;
+  }
+
+  .badge.intermediate {
+    background-color: #ffc107;
+    color: black;
+  }
+
+  .badge.basic {
+    background-color: #dc3545;
+  }
+
 
   section {
+    width:  70vw;
+
+    .two {
+      display: flex;
+
+      li {
+        display: flex;
+        justify-content: space-between;
+        width: 30vw;
+        margin: 5px;
+        border-bottom: 1px dotted  $card-color;
+      }
+    }
     &:first-child {
       color: #fff;
     }
 
-    min-height: 100vh;
+    p {
+      color: $text-color;
+      line-height: 1.6;
+    }
   }
-
 
   h1 {
     font-weight: 700;
@@ -22,14 +75,15 @@
     line-height: 109px;
     margin-top: 30px;
     margin-bottom: 80px;
+    color: #e0e0e0;
   }
 
   h3 {
-    background: linear-gradient(180deg, #003377 8.26%, #00FFFF 139.13%);
+    background: linear-gradient(180deg, #4a4a4a 8.26%, #6c7a89 139.13%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    font-family: 'Nunito';
+    font-family: 'Nunito', serif;
     font-style: normal;
     font-weight: 700;
     font-size: 34px;
@@ -37,20 +91,18 @@
   }
 
   h4 {
-    background: linear-gradient(180deg, #003377 58.26%, #00FFFF 139.13%);
+    background: linear-gradient(180deg, #4a4a4a 58.26%, #6c7a89 139.13%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    font-family: 'Nunito';
     font-style: normal;
     font-weight: 700;
     font-size: 34px;
     line-height: 46px;
   }
 
-  @media (max-width: $width_mobile) {
+  @media (max-width: 768px) {
     padding: 10px 25px;
-
 
     h1 {
       font-size: 32px;
@@ -62,5 +114,4 @@
       line-height: unset;
     }
   }
-
 }
