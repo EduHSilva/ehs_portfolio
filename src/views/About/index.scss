@@ -1,7 +1,7 @@
 @import "../../base";
 
 .content-container {
-  height: 80vh;
+  height: 75vh;
   overflow-y: scroll;
   overflow-x: hidden;
 }
@@ -18,8 +18,6 @@
   .subtitle {
     width: 30vw;
   }
-
-
 
   .badge {
     display: inline-block;
@@ -103,6 +101,18 @@
 
   @media (max-width: 768px) {
     padding: 10px 25px;
+    flex-direction: column;
+
+    .two {
+      flex-direction: column;
+
+      ul {
+        padding: 0;
+      }
+      li {
+        width: unset!important;
+      }
+    }
 
     h1 {
       font-size: 32px;

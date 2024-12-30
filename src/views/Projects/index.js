@@ -6,7 +6,7 @@ const projects = require('./projects.json');
 
 const Projects = () => {
     return (
-        <div className="container">
+        <div className="container-content">
             <Row xs={1} md={1} className="g-4">
                 {projects.map((p, index) => (
                     <Col key={index}>
