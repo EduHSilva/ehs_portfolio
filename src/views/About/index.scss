@@ -17,6 +17,7 @@
 
   .subtitle {
     width: 30vw;
+    border-bottom: 1px solid $card-color;
   }
 
   .badge {
@@ -45,6 +46,7 @@
 
   section {
     width:  70vw;
+    padding-left: 15px;
 
     .two {
       display: flex;
