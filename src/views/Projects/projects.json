@@ -1,5 +1,22 @@
 [
   {
+    "title": "Routine: transforme sua rotina com organização",
+    "imgs": [
+      "https://raw.githubusercontent.com/EduHSilva/routine/refs/heads/main/imgs/home.jpg",
+      "https://raw.githubusercontent.com/EduHSilva/routine/refs/heads/main/imgs/onboarding.jpg",
+      "https://raw.githubusercontent.com/EduHSilva/routine/refs/heads/main/imgs/workouts.jpg",
+      "https://raw.githubusercontent.com/EduHSilva/routine/refs/heads/main/imgs/tasks_week.jpg"
+    ],
+    "description": "Projeto de data mining e data science para buscar dados online e fornecer uma solução que permita à empresa uma estratégia de tomada de decisões baseada em dados. Dessa forma, executamos a mineração de dados na base do twitter e gerar um relatório que forneça dados para um profissional avaliar o posicionamento da marca e as avaliações de consumidores.",
+    "tags": [
+      "Flutter",
+      "GoLang",
+      "Full stack"
+    ],
+    "videos": ["https://drive.google.com/file/d/1EfTyxuxlEq2NYcaUkMWHMvtN3nAQaYhr/preview"],
+    "link": "https://github.com/EduHSilva/routine"
+  },
+  {
     "title": "Uso da análise de dados em cenários empresariais: Incrementado à Estratégia de Marketing Digital",
     "imgs": [
       "https://user-images.githubusercontent.com/50171354/186998874-29031580-35f2-48ba-b817-af82e0116236.png",
@@ -16,7 +33,6 @@
   {
     "title": "Engenharia de dados: ETL em dados de DOTA2 ",
     "imgs": [
-      ""
     ],
     "description": "Projeto de engenharia de dados para a obtenção de dados brutos de partidas de Dota2, transformação e carga em um banco de dados orientado a documentos.",
     "tags": [
@@ -24,6 +40,7 @@
       "DataScience",
       "Engenharia de dados"
     ],
+    "videos": ["https://drive.google.com/file/d/11gnQygVR-1hflQdla1pGy8gEcUsJI5bf/preview"],
     "link": "https://github.com/EduHSilva/dotaProMatches"
   },
   {
