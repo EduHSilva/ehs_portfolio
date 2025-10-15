@@ -1,25 +1,37 @@
-import React from "react";
-import {
-    BrowserRouter,
-    Routes,
-    Route,
-} from "react-router-dom";
+import React from 'react';
+import { ThemeProvider } from './contexts/ThemeContext';
+import { LanguageProvider } from './contexts/LanguageContext';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import About from './components/About';
+import Experience from './components/Experience';
+import Skills from './components/Skills';
+import Education from './components/Education';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import { Toaster } from './components/ui/toaster';
+import './App.css';
 
-import {About, Projects} from "./views";
-import {Header} from "./components";
-import Footer from "./components/Footer";
-
-const App = () => (
-    <main>
-        <BrowserRouter>
-            <Header/>
-            <Routes>
-                <Route path="/" element={<About/>}/>
-                <Route path="/projetos" element={<Projects/>}/>
-            </Routes>
-        </BrowserRouter>
-        <Footer/>
-    </main>
-);
+function App() {
+  return (
+    <ThemeProvider>
+      <LanguageProvider>
+        <div className="App min-h-screen bg-background text-foreground">
+          <Header />
+          <main>
+            <Hero />
+            <About />
+            <Experience />
+            <Skills />
+            <Education />
+            <Contact />
+          </main>
+          <Footer />
+          <Toaster />
+        </div>
+      </LanguageProvider>
+    </ThemeProvider>
+  );
+}
 
 export default App;
