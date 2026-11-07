@@ -1,0 +1,34 @@
+# Sobe o portfólio conectado à rede do nginx dos microservices.
+#
+# O container não publica porta no host: o acesso é sempre pelo nginx dos
+# microservices em http://localhost/app/portfolio/.
+#
+# Requisitos:
+#   1. A stack dos microservices precisa estar no ar.
+#   2. A rede externa precisa existir:
+#        docker network ls | grep ehs_microservices
+#
+# Uso:
+#   docker compose up -d --build
+#   docker compose logs -f portfolio-ui
+
+services:
+  portfolio-ui:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ${PORTFOLIO_UI_IMAGE:-ehs_portfolio-ui:local}
+    container_name: portfolio-ui
+    restart: unless-stopped
+    expose:
+      - "80"
+    networks:
+      default: {}
+      ehs_microservices:
+        aliases:
+          - portfolio-ui
+
+networks:
+  ehs_microservices:
+    external: true
+    name: ${EHS_MICROSERVICES_NETWORK:-ehs_microservices_default}

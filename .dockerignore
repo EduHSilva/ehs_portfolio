@@ -1,0 +1,30 @@
+# Git / editores / SO
+.git
+.gitignore
+.idea
+.vscode
+.DS_Store
+Thumbs.db
+
+# Dependências e artefatos locais
+node_modules
+**/node_modules
+**/*.log
+**/test-results
+**/playwright-report
+
+# Variáveis locais
+**/.env
+**/.env.*
+
+# Docker/compose e CI
+**/docker-compose*
+**/compose.y*ml
+**/Dockerfile*
+**/.dockerignore
+.github
+
+# Documentação e scripts de desenvolvimento
+README.md
+AGENTS.md
+scripts
